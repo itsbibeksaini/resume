@@ -9,12 +9,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import {MatListModule} from '@angular/material/list'
 import {MatButtonModule} from '@angular/material/button'
-import {MatRippleModule} from '@angular/material/core'
+import {MatRippleModule} from '@angular/material/core';
+import { HomeComponent } from './home/home.component';
+import { WorkComponent } from './work/work.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { SkillsComponent } from './skills/skills.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidebarComponent
+    SidebarComponent,
+    HomeComponent,
+    WorkComponent,
+    ProjectsComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
