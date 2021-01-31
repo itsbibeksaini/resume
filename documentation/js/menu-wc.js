@@ -55,20 +55,36 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                 <a href="modules/AppModule.html" data-type="entity-link">AppModule</a>
                                     <li class="chapter inner">
                                         <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ?
-                                            'data-target="#components-links-module-AppModule-677f6901f51bbc3052323d3bd96df4ae"' : 'data-target="#xs-components-links-module-AppModule-677f6901f51bbc3052323d3bd96df4ae"' }>
+                                            'data-target="#components-links-module-AppModule-9e0a7ffda974d84bcae8f63530e018d2"' : 'data-target="#xs-components-links-module-AppModule-9e0a7ffda974d84bcae8f63530e018d2"' }>
                                             <span class="icon ion-md-cog"></span>
                                             <span>Components</span>
                                             <span class="icon ion-ios-arrow-down"></span>
                                         </div>
-                                        <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-AppModule-677f6901f51bbc3052323d3bd96df4ae"' :
-                                            'id="xs-components-links-module-AppModule-677f6901f51bbc3052323d3bd96df4ae"' }>
+                                        <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-AppModule-9e0a7ffda974d84bcae8f63530e018d2"' :
+                                            'id="xs-components-links-module-AppModule-9e0a7ffda974d84bcae8f63530e018d2"' }>
                                             <li class="link">
                                                 <a href="components/AppComponent.html"
                                                     data-type="entity-link" data-context="sub-entity" data-context-id="modules">AppComponent</a>
                                             </li>
                                             <li class="link">
+                                                <a href="components/HomeComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">HomeComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/ProjectsComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">ProjectsComponent</a>
+                                            </li>
+                                            <li class="link">
                                                 <a href="components/SidebarComponent.html"
                                                     data-type="entity-link" data-context="sub-entity" data-context-id="modules">SidebarComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/SkillsComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">SkillsComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/WorkComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">WorkComponent</a>
                                             </li>
                                         </ul>
                                     </li>
