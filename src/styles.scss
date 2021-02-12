@@ -34,7 +34,7 @@ $portfolio2-theme: mat-light-theme((
 @include angular-material-theme($portfolio2-theme);
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: 'Times New Roman', Times, serif }
 
 .icon-21{
   font-size: 21px !important;
