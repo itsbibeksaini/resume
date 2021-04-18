@@ -25,4 +25,5 @@ export class AppComponent {
   faLightbulb = faLightbulb
   faStar = faStar
   
+  
 }
