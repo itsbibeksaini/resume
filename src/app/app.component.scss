@@ -32,7 +32,8 @@ $font-text: 'Source Sans Pro', sans-serif;
     border-bottom-right-radius: $radius;
     border-top-right-radius: $radius;    
 
-    margin:10px;
+    margin:0px;
+    margin-bottom: 5px;
     margin-left: 11rem;
     letter-spacing: 0.5px;   
     position: relative;
@@ -45,7 +46,7 @@ $font-text: 'Source Sans Pro', sans-serif;
     
     .event{
         
-        margin-bottom: 25px;  
+        margin-bottom: 10px;  
         position: relative;
 
         &:last-of-type { 
