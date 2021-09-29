@@ -1,7 +1,6 @@
-
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
-@import '~@angular/material/theming';
+@import "~@angular/material/theming";
 // Plus imports for other components in your app.
 
 // Include the common styles for Angular Material. We include this here so that you only
@@ -20,49 +19,69 @@ $portfolio2-warn: mat-palette($mat-red);
 
 // Create the theme object. A theme consists of configurations for individual
 // theming systems such as "color" or "typography".
-$portfolio2-theme: mat-light-theme((
-  color: (
-    primary: $portfolio2-primary,
-    accent: $portfolio2-accent,
-    warn: $portfolio2-warn,
+$portfolio2-theme: mat-light-theme(
+  (
+    color: (
+      primary: $portfolio2-primary,
+      accent: $portfolio2-accent,
+      warn: $portfolio2-warn,
+    ),
   )
-));
+);
 
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
 @include angular-material-theme($portfolio2-theme);
 
-html, body { height: 100%; }
-body { margin: 0; font-family: 'Times New Roman', Times, serif }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
 
-.icon-21{
+.icon-21 {
   font-size: 21px !important;
 }
 
-.margin-auto{
-  margin: auto;;
+.margin-auto {
+  margin: auto;
 }
 
-.display-block{
+.display-block {
   display: block;
 }
 
-.padding2030{
+.padding10 {
+  padding: 10px;
+}
+
+.padding2030 {
   padding: 20px 30px;
 }
 
-.centralize{
+.centralize {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);  
+  transform: translate(-50%, -50%);
 }
 
-a{
+a {
   color: #212529;
   text-decoration: none;
-  &:hover{
+  &:hover {
     text-decoration: none !important;
+  }
+}
+
+.skills-section div[fxFlex] {
+  & div {
+    border: 1px solid;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
   }
 }
