@@ -453,7 +453,7 @@
                     <span class="mat-display-1" style="color:  #2196F3;">PROJECTS</span>
                 </div>
             </header>
-            <div>
+            <!-- <div>
                 <header class="pl-5">
                     <span class="mat-h1 display-block m-0">Task Manager</span>     
                     <span class="mat-body display-block m-0">Micro-services app</span>               
@@ -536,7 +536,144 @@
                         </li>
                     </ul>
                 </div>
-            </div> 
+            </div>  -->
+        
+            <ul class="timeline">
+                <li class="event">
+                    <div style=" padding: 0px 5px;">
+                        <span class="mat-h3 display-block m-0 font-weight-bold">Task manager</span>
+                        <span class="mat-small display-block m-0">Micro-services app</span>                        
+                    </div>
+                    <div class="mt-2">
+                        <ul class="pointers">
+                            <li>
+                                Built on micro-services architecture this application provides management services like invoice manager and task board which allow
+users to manage their task and help organisation's digitize their invoice generation system. The whole project is divided into various
+micro-apps based on their individual responsibility that each micro app need to perform, which are deployed on Azure Kubernetes
+Services.
+                            </li>
+                            <li>
+                                <b>Technologies used:</b>
+                                <ul>
+                                    <li>
+                                        Angular(8+) for frontend client application
+                                    </li>
+                                    <li>
+                                        Java Spring Framework, ASP.NET Core web api for backend micro web apps, gRPC for inner app communication and RESTful API
+for communicating with client.
+                                    </li>
+                                    <li>
+                                        Consul Service Mesh combined with Ocelot Api to built a gateway api for communication with client application.
+                                    </li>
+                                    <li>
+                                        Docker for container image creation, Kubernetes for container-orchestration for automating computer application deployment,
+scaling, and management.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="event">
+                    <div style=" padding: 0px 5px;">
+                        <span class="mat-h3 display-block m-0 font-weight-bold">Workflows</span>
+                        <span class="mat-small display-block m-0">Java EE</span>                        
+                    </div>
+                    <div class="mt-2">
+                        <ul class="pointers">
+                            <li>
+                                Workflows modules help organizations to manage tasks which occurs in particular order. With workflows organizations can design the
+flow with various pre-defined task.
+                            </li>
+                            <li>
+                                <b>Technologies used:</b>
+                                <ul>
+                                    <li>
+                                        Core java and java ee as backend languages.
+                                    </li>
+                                    <li>
+                                        HTML, JavaScript, CSS as forntend presentation languages.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="event">
+                    <div style=" padding: 0px 5px;">
+                        <span class="mat-h3 display-block m-0 font-weight-bold">Pending task service</span>
+                        <span class="mat-small display-block m-0">SpringBoot</span>                        
+                    </div>
+                    <div class="mt-2">
+                        <ul class="pointers">
+                            <li>
+                                Pending task service collects various task information from different services in micro-services architecture and helps in presenting it in
+singular form.
+                            </li>
+                            <li>
+                                <b>Technologies used:</b>
+                                <ul>
+                                    <li>SpringBoot framework to build core framework and Java to write business logic.</li>
+                                    <li>
+                                        JPA and SpringData for storing and accessing the data in database.
+                                    </li>
+                                    <li>
+                                        Swagger(OpenAPI) for api documentation.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="event">
+                    <div style=" padding: 0px 5px;">
+                        <span class="mat-h3 display-block m-0 font-weight-bold">Custom gradle plugins</span>
+                        <span class="mat-small display-block m-0">Gradle API & Kotlin</span>                        
+                    </div>
+                    <ul class="pointers">
+                        <li>
+                            An assortment of gradle plugins customised to configure esentials plugins and settings required by project.
+                        </li>
+                        <li>
+                            <b>Technologies used:</b>
+                            <ul>
+                                <li>
+                                    Gradle API to create Custom gradle plugin.
+                                </li>
+                                <li>
+                                    Kotlin as backend language to write plugin logic.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="event">
+                    <div style=" padding: 0px 5px;">
+                        <span class="mat-h3 display-block m-0 font-weight-bold">Project generator(scaffolding new projects)</span>
+                        <span class="mat-small display-block m-0">Gradle API & Kotlin</span>                        
+                    </div>
+                    <ul class="pointers">
+                        <li>
+                            Custom gradle plugin with which we can easily scaffold(auto generate boiler-plate code) projects as per requirements.
+                        </li>
+                        <li>
+                            <b>Technologies used:</b>
+                            <ul>
+                                <li>
+                                    Gradle API to create Custom gradle plugin.
+                                </li>
+                                <li>
+                                    Kotlin as backend language to write plugin logic.
+                                </li>
+                                <li>
+                                    JavaPoet to scaffold java code files.(An API to generate java source code files).
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>    
         </div>
+        
     </div>
 </div>
